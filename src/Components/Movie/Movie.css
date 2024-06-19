@@ -37,6 +37,10 @@
     background-color: rgba(68, 0, 255, 0.719); 
 }
 
+.movie-item.watched:hover {
+    background-color: #7d00ff;
+}
+
 .watched-container {
     margin-top: 10px;
 }
@@ -47,6 +51,7 @@
     color: #ffffff; 
     gap: 5px;
 }
+
 
 .favorite-container {
     margin-top: 10px;

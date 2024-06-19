@@ -17,9 +17,9 @@ const Movie = ({ movie, onClick }) => {
     };
 
     return (
-        <div className={`movie-item ${isWatched ? 'watched' : ''}`} onClick={onClick}>
-            <h2>{movie.original_title}</h2>
-            <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.original_title} poster`} />
+        <div className={`movie-item ${isWatched ? 'watched' : ''}`}>
+            <h2 onClick={onClick}>{movie.original_title}</h2>
+            <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.original_title} poster`} onClick={onClick}/>
             <div>Rating: {movie.vote_average}</div>
             <div className="watched-container">
                 <label>
