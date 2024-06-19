@@ -12,7 +12,8 @@ Deployed Application (optional): [Flixster Deployed Site](https://flixster-co1q.
 
 
 - [X] **Display Movies**
-  -[X] Users can view a list of current movies from The Movie Database API.
+
+  - [X] Users can view a list of current movies from The Movie Database API.
   - [X] For each movie displayed, users can see its title, poster image, and votes.
   - [X] Users can load more current movies by clicking a button at the bottom of the list (page should not be reloaded).
 - [X] **Search Functionality**
