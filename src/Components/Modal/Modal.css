@@ -48,3 +48,19 @@
     height: 315px;
     border-radius: 8px;
 }
+
+@media (max-width: 1200px) {
+    .close-button {
+        background: none;
+}
+}
+@media (max-width: 768px) {
+    .close-button {
+        background: none;
+}
+}
+@media (max-width: 480px) {
+    .close-button {
+        background: none;
+}
+}

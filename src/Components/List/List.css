@@ -156,3 +156,20 @@
     color: grey;
   }
   
+  @media (max-width: 1200px) {
+    .load-more:hover {
+        background-color: #7d00ff;
+  }
+  }
+
+  @media (max-width: 768px) {
+    .load-more:hover {
+        background-color: #7d00ff;
+  }
+  }
+
+  @media (max-width: 480px) {
+    .load-more:hover {
+        background-color: #7d00ff;
+  }
+}

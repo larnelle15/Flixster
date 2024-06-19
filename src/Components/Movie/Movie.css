@@ -75,3 +75,22 @@
 .watched-container input[type="checkbox"] {
     transform: scale(1.2);
 }
+
+@media (max-width: 1200px) {
+    .favorite-icon:hover {
+        color: #ff6666; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .favorite-icon:hover {
+        color: #ff6666; 
+    }
+}
+
+@media (max-width: 480px) {
+    .favorite-icon:hover {
+        color: #ff6666; 
+    }
+}

@@ -220,8 +220,8 @@ const List = () => {
                     
                     releaseDate={selectedMovie.release_date}
                     movieOverview={selectedMovie.overview}
-                    trailerUrl={selectedMovie.trailer_url} 
                     movieGenres={selectedMovie.genres.map(genre => genre.name).join(', ')}
+                    runtime={selectedMovie.runtime}
                 />
             )}
             {loading && <p>Loading...</p>}
